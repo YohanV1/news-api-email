@@ -18,7 +18,7 @@ raw_message = ""
 
 # Access the article titles and descriptions
 for article in content["articles"][:10]:
-      raw_message = raw_message + f"{article['title']}:" \
+      raw_message = raw_message + f"{article['title']}: " \
                                   f"\n{article['description']}" \
                                   f"\n{article['url']}\n\n\n"
 
